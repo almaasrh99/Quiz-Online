@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ECD487</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="milky_way">#E5F1F6</color>
+    <color name="sky">#7DC9E7</color>
+    <color name="burnt">#EE7155</color>
+    <color name="squash2">#FACC48 </color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="darkchoco">#7A5308 </color>
+    <color name="lady_pink">#F4D2D2</color>
+    <color name="rose">#F49FB6</color>
+    <color name="pelorous">#3BB0BA</color>
+    <color name="squash">#F7AA35</color>
+    <color name="yellow">#FAD06C</color>
+    <color name="blue">#18A4E0</color>
+</resources>

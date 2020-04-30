@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD676"
+    android:paddingLeft="@dimen/medium_space_between_views"
+    android:paddingTop="@dimen/medium_space_between_views">
+
+    <TextView
+        android:layout_marginBottom="@dimen/minimum_space_between_views"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="About"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:text="'Quiz Online' merupakan aplikasi yang berguna untuk
+        mengasah kemampuan belajar siswa &amp; siswi SMA.Dimana dalam aplikasi ini telah disajikan 8 buah mata pelajaran dari
+        jurusan IPA maupun IPS.Quiz ini berbasis Online dimana siswa yang ingin menggunakan diharuskan untuk login.Quiz
+        ini berbatas waktu, jadi dimohon perhatikan waktu dalam pengerjaannya."/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/minimum_space_between_views"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Library &amp; resources"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firebase"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Flaticon"/>
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Ruangguru"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/minimum_space_between_views"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Developer"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Rokhmah Vira Santi (Project Manager)"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Almaas Rozikin H.  (Backend Leader) "/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Ni Luh Made Beathris Anjasari  (Backend Support) "/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Alwan Hafidzin  (Backend Support) "/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Indrajaya Fikri (Frontend Design) "/>
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_space_between_views"
+        android:textColor="@color/darkchoco"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:text="Cp : email@dicoding.com"/>
+
+</LinearLayout>

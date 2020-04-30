@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "638394492396",
+    "firebase_url": "https://quiz-6a564.firebaseio.com",
+    "project_id": "quiz-6a564",
+    "storage_bucket": "quiz-6a564.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638394492396:android:7abe274e04b04dceea8cc9",
+        "android_client_info": {
+          "package_name": "com.almaas.firebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638394492396-7npnoio0ro99hg98gum1v5b9nqc1ma68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.almaas.firebaselogin",
+            "certificate_hash": "08b7fbbd1bb0a689781ea0a9780ed4bbf8941794"
+          }
+        },
+        {
+          "client_id": "638394492396-k2bpmfkbvln2vhpkejvftc2aao8fu622.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.almaas.firebaselogin",
+            "certificate_hash": "ed80b6d67fafa489abec0ec472baa3f618d3b939"
+          }
+        },
+        {
+          "client_id": "638394492396-rel4is08ncgh5nrd2rngpptmmp32mrds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.almaas.firebaselogin",
+            "certificate_hash": "5b32cfd6b572563c2d1738b4e4c3c2075db837c8"
+          }
+        },
+        {
+          "client_id": "638394492396-ljm73mpua2btfjb3o49br2qdulk6o1vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZtx-ATUfaUK313HL7JGPwTEXxR7y3-dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638394492396-ljm73mpua2btfjb3o49br2qdulk6o1vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638394492396:android:4de86363907008d2ea8cc9",
+        "android_client_info": {
+          "package_name": "com.almaas.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638394492396-ojl1kr78e38bullrfnbalpg0v2tonh0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.almaas.quiz",
+            "certificate_hash": "5b32cfd6b572563c2d1738b4e4c3c2075db837c8"
+          }
+        },
+        {
+          "client_id": "638394492396-ljm73mpua2btfjb3o49br2qdulk6o1vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZtx-ATUfaUK313HL7JGPwTEXxR7y3-dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638394492396-ljm73mpua2btfjb3o49br2qdulk6o1vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638394492396:android:e1f5f444492ba8ceea8cc9",
+        "android_client_info": {
+          "package_name": "com.almaas.quizonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638394492396-njq1qum5o74cvkorg022jodbo5arqse5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.almaas.quizonline",
+            "certificate_hash": "08b7fbbd1bb0a689781ea0a9780ed4bbf8941794"
+          }
+        },
+        {
+          "client_id": "638394492396-ljm73mpua2btfjb3o49br2qdulk6o1vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZtx-ATUfaUK313HL7JGPwTEXxR7y3-dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638394492396-ljm73mpua2btfjb3o49br2qdulk6o1vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

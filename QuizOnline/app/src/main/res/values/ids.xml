@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="correct" type="id" />
+    <item name="incorrect" type="id" />
+    <item name="attempted" type="id" />
+    <item name="hasil" type="id" />
+    <item name="layout1" type="id" />
+    <item name="skor" type="id" />
+    <item name="layout3" type="id" />
+    <item name="tv" type="id" />
+    <item name="layout2" type="id" />
+    <item name="garis2" type="id" />
+</resources>

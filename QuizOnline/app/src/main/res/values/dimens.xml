@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_space_between_views" />
+    <dimen name="minimum_space_between_views" />
+</resources>

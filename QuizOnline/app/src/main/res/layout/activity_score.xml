@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <ImageView
+        android:id="@+id/img_user"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/logo"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/img_user"
+        android:id="@+id/skor"
+        android:text="Skor"
+        android:textAlignment="center"
+        android:textColor="#9A6C09"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_below="@+id/skor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="#1E88FF "
+        android:text="0"
+        android:textSize="50sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/garis2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/layout3"
+        android:layout_marginTop="25dp"
+        android:background="#c6c6c6" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:background="@color/white"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Pertanyaan :"
+            android:textColor="#224BD5 "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/attempted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#224BD5 "
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jawaban Benar    :"
+            android:textColor="#51b364"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#51b364"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/layout2"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jawaban Salah    :"
+            android:textColor="#e9403d"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/incorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#e9403d"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/hasil"
+        android:id = "@+id/tv"
+        android:layout_marginTop="20dp"
+        android:background="#bebebe" />
+
+    <Button
+        android:id="@+id/btn_out"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="LogOut"
+        android:layout_below="@+id/garis2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:text="LOGOUT"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button3">
+    </Button>
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/garis2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="backToQuiz"
+        android:text="Back To Quiz"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button3">
+    </Button>
+
+
+
+</RelativeLayout>

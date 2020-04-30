@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz Online v2</string>
+    <string name="dont_have_account">Don\'t have account</string>
+    <string name="login">Login</string>
+    <string name="sign_up">SignUp</string>
+    <string name="email">Email</string>
+    <string name="nama">Nama</string>
+    <string name="nis">NIS</string>
+    <string name="verify">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="Mulai">Next</string>
+    <string name="type">Choose the type of question</string>
+    <string name="next_question">Next Question</string>
+    <string name="easy">SD</string>
+    <string name="difficult">SMP</string>
+    <string name="expert">SMA</string>
+    <string name="coba">Belum puas dengan skormu ? Kamu bisa coba terus mengambil latihan untuk mendapatkan skor yang maksimal</string>
+    <string name="skor">Skor  Latihan Anda adalah</string>
+    <string name="next">Mulai</string>
+    <string name="nilai">NILAI</string>
+</resources>

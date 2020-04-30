@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCD49C"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/quiz"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/murid1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/student"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="-150dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/student2"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/tv_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"/>
+        <Button
+            android:id="@+id/btn_log_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkchoco"
+            android:padding="16dp"
+            android:text="@string/login"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            />
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_button"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkchoco"
+        android:padding="16dp"
+        android:text="@string/dont_have_account"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
